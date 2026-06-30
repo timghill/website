@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — Jordan Hale</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">Jordan Hale</a>
+    <button class="nav-toggle" aria-label="Toggle menu">Menu</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="software.html">Software</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom: 1rem;">
+  <div class="wrap" style="padding-top: clamp(2.5rem, 6vw, 3.5rem); padding-bottom: 1rem;">
+    <span class="eyebrow">Research</span>
+    <h1 style="font-size: clamp(1.8rem, 4vw, 2.6rem);">Numerical modelling of ice and earth systems</h1>
+    <p class="tagline">An overview of the questions I work on, the methods I use, and where the tools and code live.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="theme-list">
+
+      <div class="theme">
+        <h3>1. Ice-sheet dynamics under uncertain basal conditions</h3>
+        <p>Ice flow at the base of an ice sheet is controlled by conditions we can rarely observe directly: the roughness of the bed, the presence of meltwater, and the strength of subglacial sediment. I run ensembles of finite-element ice-flow simulations to explore how these unknowns propagate into uncertainty in sea-level projections, focusing on fast-flowing outlet glaciers in West Antarctica.</p>
+      </div>
+
+      <div class="theme">
+        <h3>2. Data assimilation for glacier model calibration</h3>
+        <p>Rather than guessing model parameters, this work uses adjoint-based inversion to combine satellite-derived surface velocity and elevation-change data with physical models, producing calibrated simulations that are consistent with what we actually observe from space.</p>
+      </div>
+
+      <div class="theme">
+        <h3>3. Open, reproducible HPC workflows</h3>
+        <p>Large model runs are only useful if others can check and build on them. I develop containerised, version-controlled pipelines for running and post-processing simulations on shared HPC clusters, with an emphasis on workflows that a new student or collaborator can pick up without months of onboarding.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Methods &amp; tools</span>
+      <h2>What I build with</h2>
+    </div>
+    <p class="lede">A working sense of the stack behind the science — useful context for collaborators and hiring committees alike.</p>
+    <div class="chip-row">
+      <span class="chip">Python</span>
+      <span class="chip">Fortran</span>
+      <span class="chip">C++</span>
+      <span class="chip">FEniCS</span>
+      <span class="chip">Firedrake</span>
+      <span class="chip">PETSc</span>
+      <span class="chip">MPI / HPC</span>
+      <span class="chip">Slurm</span>
+      <span class="chip">Docker / Singularity</span>
+      <span class="chip">xarray</span>
+      <span class="chip">QGIS</span>
+      <span class="chip">Git / GitHub Actions</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Background</span>
+      <h2>How I got here</h2>
+    </div>
+    <p>I completed my PhD at University Name (20XX), working on [thesis topic], advised by [Advisor Name]. Before that, I studied [degree, institution]. My research has been supported by [funding body / fellowship name]. A full history is on my <a href="cv.html">CV</a>.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">&copy; 2026 Jordan Hale. Built with plain HTML &amp; CSS, hosted on GitHub Pages.</div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

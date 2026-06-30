@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Software — Jordan Hale</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">Jordan Hale</a>
+    <button class="nav-toggle" aria-label="Toggle menu">Menu</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="software.html" class="active">Software</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom: 1rem;">
+  <div class="wrap" style="padding-top: clamp(2.5rem, 6vw, 3.5rem); padding-bottom: 1rem;">
+    <span class="eyebrow">Software</span>
+    <h1 style="font-size: clamp(1.8rem, 4vw, 2.6rem);">Code &amp; tools</h1>
+    <p class="tagline">Open-source tools developed alongside my research. All repositories are MIT-licensed unless noted otherwise — issues and pull requests welcome.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="repo-grid">
+
+      <div class="repo-card">
+        <h3>icebed-ensemble</h3>
+        <span class="repo-name">github.com/yourname/icebed-ensemble</span>
+        <p>Python package for generating and running large ensembles of finite-element ice-flow simulations with perturbed basal parameters.</p>
+        <a href="#">View repository →</a>
+      </div>
+
+      <div class="repo-card">
+        <h3>adjoint-friction</h3>
+        <span class="repo-name">github.com/yourname/adjoint-friction</span>
+        <p>FEniCS-based adjoint inversion toolkit for calibrating subglacial friction fields from satellite velocity observations.</p>
+        <a href="#">View repository →</a>
+      </div>
+
+      <div class="repo-card">
+        <h3>hpc-reproduce</h3>
+        <span class="repo-name">github.com/yourname/hpc-reproduce</span>
+        <p>Containerised Slurm + Singularity templates for reproducible large-scale model runs, with built-in provenance logging.</p>
+        <a href="#">View repository →</a>
+      </div>
+
+      <div class="repo-card">
+        <h3>glacier-viz</h3>
+        <span class="repo-name">github.com/yourname/glacier-viz</span>
+        <p>Lightweight xarray + matplotlib plotting library for common ice-sheet model diagnostics and animations.</p>
+        <a href="#">View repository →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="lede">Looking for something specific, or want to collaborate on a tool? <a href="contact.html">Get in touch</a>.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">&copy; 2026 Jordan Hale. Built with plain HTML &amp; CSS, hosted on GitHub Pages.</div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
